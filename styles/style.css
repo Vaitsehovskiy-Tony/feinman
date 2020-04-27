@@ -143,25 +143,14 @@
 }
 
 
-/* .cards {
-    display:flex;
-    flex-wrap:wrap;
-    width:80vw;
-    margin:auto;
-    border:1px solid red;
-    justify-content:space-evenly;
-
-}
- */
  .cards {
     display:grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 60px 50px 0 50px;
+    grid-gap: 60px 50px;
     width:80vw;
     margin:auto;
-/*     border:1px solid red;
- */
+
 }
 
 
@@ -170,8 +159,6 @@
     padding:60px 50px 0 50px;
     display: flex;
     flex-direction: column;
-/*     border:1px solid red;
- */
 
 }
 
@@ -209,10 +196,17 @@
     
 }
 
+.cards__item:last-of-type {
+    padding-top: 124.8px;
+    
+}
+
 .cards__item-title {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .cards__item-discription {
@@ -227,8 +221,7 @@
     justify-content: center;
     flex-direction: column;
     margin:0 auto 0 auto;
-/*     background-color: #C0C0C0;
-*/     background-color: #ffffff; 
+    background-color: #ffffff; 
 
 }
 
@@ -266,21 +259,14 @@
     border:none;    
 }
 
-.oakley .two-columns {
-    /* background-color: #f2f2f2; *//
-
-
-}
 .oakley {
     background-color: #f2f2f2;
-/*     background-color: #C0C0C0;
- */    margin:0;
+    margin:0;
     padding:0;
 
 }
 
 
-/* почему-то у меня на разном уровне колонки :-/ */
 
 .feinman {
     position: relative;
@@ -289,11 +275,6 @@
     flex-direction: column;
     justify-content: flex-start;
     max-height: 1000px;
-    /* background:url(/images/feinman.png);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size:867px 637px;
-    z-index:1; */
     
 }
 
@@ -360,7 +341,6 @@
     z-index: 10;
 }
 
-/*здесь тоже ощущение, что не по центру таблица */
 .table {
     display: flex;  
     flex-wrap:wrap;
@@ -422,7 +402,6 @@
 
 
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
     width: 200px;
     color: white;
@@ -457,9 +436,7 @@
     margin:auto;
     justify-content: flex-start;
     background-color: #f2f2f2;
-    
-/*     background-color: #C0C0C0;
- */    padding:0 10% 0 10%;
+    padding:0 10% 0 10%;
 
 
  
@@ -579,7 +556,6 @@
     background-color: #1f1f1f;
     color: white;
 
-/*     max-width: 1600px; */
 }
 
 .footer__columns {
@@ -668,8 +644,4 @@ ul {
     opacity:  0.4;
     color: #A9A9A9;
 
-}
-
-description {
-    background-color: aqua;
 }
