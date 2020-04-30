@@ -7,25 +7,10 @@
     }
 }
 
-/* @keyframes opacity {
-    from {
-        opacity:1;
-    }
-    to {
-        opacity:0.5;
-    }
-} */
-
-
-
 .page {
     min-width: 1100px;
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
     max-width: 1600px;
-    /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -38,12 +23,10 @@
     justify-content: flex-start;
     align-items: center;  
     background-color: #f2f2f2;  
-   /* выше установили ограничения для секции */
    overflow:hidden;
 
 }   
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
     height: 568px;
     width: 568px;
@@ -198,6 +181,10 @@
 
 .cards__item:last-of-type {
     padding-top: 124.8px;
+    /* обязательно сделать карточки 
+    через правильно место, при больш
+    ом кол-ве текста карточка может плыть */
+    
     
 }
 
