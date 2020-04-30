@@ -1,12 +1,12 @@
-#Feynman
+# Feynman
 ____________
 
-##Сайт о навыке самообучения
+## Сайт о навыке самообучения
 
-##Проект: https://vaitsehovskiy-tony.github.io/feinman/
+## Проект: https://vaitsehovskiy-tony.github.io/feinman/
 
 
-###Использовались HTML5 и CSS3(flex & grid)
+### Использовались HTML5 и CSS3(flex & grid)
 
 План доработки:
 * переделать карточки, чтобы большое кол-во текста не ломало сетку
